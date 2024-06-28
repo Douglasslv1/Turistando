@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*.carneiros img{
+    display: flex;
+    width: 220px;
+    height: 380px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5%;
+    width: 23%;
+}
+.carneiros .into{
+    color: black;
+    width: 240px;
+    height:400px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+
+.carneiros{
+    display: flex;
+}
+
+.img{
+    display: flex;
+    flex: wrap;
+}
+*/
+
+.card {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.1);
+    display: inline-block;
+    margin-left: 5%;
+    background-color: #306073;
+    
+    
+  }
+  
+  .card img {
+    width: 300px;   
+    height: 220px;
+    border-radius: 3%; /* para a imagem ser circular */
+    margin-right: 10px;
+   
+  }
+  
+  .card-content {
+    flex: 1; /* faz o conteúdo ocupar o restante do espaço */
+  }
+  
+  .card-title {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "Lobster", cursive;
+  }
+  
+  .card-description {
+    font-size: 1em;
+    color: white;
+  }
+
+  .card:hover{
+    transition: 0.5s;
+    scale: 1.05;
+    background-color: #E9F2F0;
+  }
+
+  .card:hover h1{
+    color: black;
+  }
+
+  .card:hover p{
+    color: black;
+  }
