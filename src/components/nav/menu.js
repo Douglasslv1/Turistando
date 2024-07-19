@@ -12,6 +12,9 @@ const menu = () => {
             <div className='logo'>
               <img src={Logo} alt="" />
             </div>
+            <div id='divBusca>'>
+              <input type="text" id="txtBusca" placeholder='Buscar'Buscar></input>
+            </div>
             <a id="home" href="#">HOME</a>
             <a id="pontost" href="#">PONTOS TURÍSTICOS</a>
             <a id="contato" href="#">CONTATO</a>
