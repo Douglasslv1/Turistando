@@ -1,19 +1,18 @@
 import React from 'react'
 import Logo from '../img/LOGO.png'
-import Style from './Style.menu.css'
+import style from './style.module.css'
 
 
 const menu = () => {
   return (
     <>
-    <nav className={Style.nenu}>
-        
-        <div className='menu'>
-            <div className='logo'>
-              <img src={Logo} alt="" />
+    <nav>
+        <div className={style.menu}>
+            <div className={style.logo}>
+              <img src={Logo} alt="Logo Turistando"/>
             </div>
-            <div id='divBusca>'>
-              <input type="text" id="txtBusca" placeholder='Buscar'Buscar></input>
+            <div className={style.divBusca}>
+              <input type="text" className={style.txtBusca} placeholder='Buscar'></input>
             </div>
             <a id="home" href="#">HOME</a>
             <a id="pontost" href="#">PONTOS TURÍSTICOS</a>
