@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-
-
 .menu {
     background-color: #D9D9D9;
     color: #fff;
@@ -52,7 +50,7 @@
     text-align: center;
 }
 
-#divBusca{
+.divBusca{
     display: flex;
     width: 400px;
     align-items: center;
@@ -60,7 +58,7 @@
     color: black;
 }
 
-#txtBusca{
+.txtBusca{
     background-color: white;
     border: solid 1px silver;
     border-radius: 10px;
